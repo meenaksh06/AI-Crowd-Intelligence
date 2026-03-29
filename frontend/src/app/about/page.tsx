@@ -16,13 +16,13 @@ import {
 
 export default function AboutPage() {
   return (
-    <div className="p-8 max-w-5xl mx-auto space-y-12 pb-24">
+    <div className="p-4 md:p-8 max-w-5xl mx-auto space-y-8 md:space-y-12 pb-24">
       {/* Hero Section */}
-      <div className="text-center space-y-4">
-        <h1 className="text-5xl font-extrabold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-400">
+      <div className="text-center space-y-4 pt-4 md:pt-0">
+        <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-400">
           CrowdIntel AI
         </h1>
-        <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+        <p className="text-base md:text-xl text-gray-400 max-w-2xl mx-auto">
           Transforming passive WiFi signals into actionable campus crowd intelligence using state-of-the-art ML.
         </p>
       </div>

@@ -31,11 +31,11 @@ export default function AnalyticsPage() {
   if (loading) return <div className="p-8 text-gray-400 font-mono animate-pulse">Computing historical aggregates...</div>;
 
   return (
-    <div className="p-8 space-y-8">
-      <div className="flex items-center justify-between">
+    <div className="p-4 md:p-8 space-y-6 md:space-y-8">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight text-white mb-1">Historical Analytics</h1>
-          <p className="text-gray-400 text-sm">Long-term patterns and zone-wise distribution.</p>
+          <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-white mb-1">Historical Analytics</h1>
+          <p className="text-gray-400 text-xs md:text-sm">Long-term patterns and zone-wise distribution.</p>
         </div>
         
         <div className="flex items-center gap-3">

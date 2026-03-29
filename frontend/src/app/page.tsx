@@ -53,18 +53,18 @@ export default function DashboardPage() {
   );
 
   return (
-    <div className="p-8 space-y-8">
+    <div className="p-4 md:p-8 space-y-6 md:space-y-8">
       {/* Header */}
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight text-white mb-1">Campus Intelligence</h1>
-          <p className="text-gray-400 text-sm">Real-time crowd monitoring and zone occupancy.</p>
+          <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-white mb-1">Campus Intelligence</h1>
+          <p className="text-gray-400 text-xs md:text-sm">Real-time crowd monitoring and zone occupancy.</p>
         </div>
         
-        <div className="flex items-center gap-4">
-          <div className="flex flex-col items-end mr-4">
-            <span className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">Last Updated</span>
-            <span className="text-sm font-mono text-gray-300">
+        <div className="flex items-center justify-between sm:justify-end gap-3 md:gap-4">
+          <div className="flex flex-col items-end sm:mr-4">
+            <span className="text-[9px] md:text-[10px] uppercase tracking-widest text-gray-500 font-bold">Last Updated</span>
+            <span className="text-xs md:text-sm font-mono text-gray-300">
               {lastUpdated ? lastUpdated.toLocaleTimeString() : "--:--:--"}
             </span>
           </div>

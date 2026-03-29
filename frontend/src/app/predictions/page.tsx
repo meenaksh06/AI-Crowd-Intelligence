@@ -56,11 +56,11 @@ export default function PredictionsPage() {
   }));
 
   return (
-    <div className="p-8 space-y-8">
-      <div className="flex items-center justify-between">
+    <div className="p-4 md:p-8 space-y-6 md:space-y-8">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight text-white mb-1">Predictive AI Engine</h1>
-          <p className="text-gray-400 text-sm">Advanced time-series forecasting and anomaly detection.</p>
+          <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-white mb-1">Predictive AI Engine</h1>
+          <p className="text-gray-400 text-xs md:text-sm">Advanced time-series forecasting and anomaly detection.</p>
         </div>
         
         <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-primary/10 border border-primary/20">

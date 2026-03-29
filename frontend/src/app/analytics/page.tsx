@@ -8,7 +8,7 @@ import {
 } from 'recharts';
 import { Calendar, BarChart3, Filter } from "lucide-react";
 
-const API_BASE = "http://localhost:8000";
+import { API_BASE } from "@/config";
 
 export default function AnalyticsPage() {
   const [data, setData] = useState<any>(null);

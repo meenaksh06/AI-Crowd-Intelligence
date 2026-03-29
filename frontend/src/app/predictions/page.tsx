@@ -8,7 +8,7 @@ import {
 } from 'recharts';
 import { BrainCircuit, TrendingUp, AlertTriangle, Lightbulb } from "lucide-react";
 
-const API_BASE = "http://localhost:8000";
+import { API_BASE } from "@/config";
 
 export default function PredictionsPage() {
   const [forecast, setForecast] = useState<any>(null);

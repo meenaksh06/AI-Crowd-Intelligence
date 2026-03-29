@@ -8,7 +8,7 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer 
 } from 'recharts';
 
-const API_BASE = "http://localhost:8000";
+import { API_BASE } from "@/config";
 
 export default function DashboardPage() {
   const [data, setData] = useState<any>(null);
